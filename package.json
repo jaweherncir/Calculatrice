@@ -16,6 +16,9 @@
     "react-native": "0.70.5",
     "react-native-web": "~0.18.9"
   },
+  "ios":{"supportsTablet":true},
+  "android":{"package":"calculatriceApp.calculatrice",
+    "adaptiveIcon":{"foregroundImage":"./assets/icon.jpg"}},
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@types/react": "~18.0.14",
